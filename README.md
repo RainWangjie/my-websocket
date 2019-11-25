@@ -8,6 +8,13 @@
 - 二进制流消息自动`gzip`解压
 - 单消息可绑定多个处理函数
 
+依赖引用方式：
+```json
+{
+  "MyWebsocket":"git+http://MyWebsocket:FofmAJ1E2PgRu4tA4-eU@git.tianrang-inc.com:TR-FRONT/MyWebsocket.git"
+}
+```
+
 ## ws 消息格式
 
 ```js
