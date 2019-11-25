@@ -9,11 +9,7 @@
 - 单消息可绑定多个处理函数
 
 依赖引用方式：
-```json
-{
-  "MyWebsocket":"git+http://MyWebsocket:FofmAJ1E2PgRu4tA4-eU@git.tianrang-inc.com:TR-FRONT/MyWebsocket.git"
-}
-```
+`yarn add git+http://my-websocket:drxgxutdRXXw6xT4XsGw@git.tianrang-inc.com:TR-FRONT/MyWebsocket.git#master`
 
 ## ws 消息格式
 
