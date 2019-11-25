@@ -7,7 +7,6 @@ declare type MessageFunc = (data: any, time: Date) => void;
 interface IWsOpt {
     protocol?: 'ws' | 'wss';
     host?: string;
-    port?: number;
     url: string;
     isOpen?: boolean;
     reconnectNum?: number;

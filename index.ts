@@ -27,7 +27,6 @@ enum WSStatus {
 interface IWsOpt {
   protocol?: 'ws' | 'wss'
   host?: string
-  port?: number
   url: string
   isOpen?: boolean // 新建ws实例后是否连接ws
   reconnectNum?: number // 重连次数
@@ -37,7 +36,6 @@ const defaults: IWsOpt = {
   protocol: 'ws',
   url: '',
   host: document.location.host,
-  port: 80,
   isOpen: true,
   reconnectNum: 5,
 }
@@ -158,7 +156,7 @@ class MyWebSocket {
     return new Promise((resolve, reject) => {
       this.status = WSStatus.连接中
       const ws: WebSocket = new WebSocket(
-        `${this.opt.protocol}://${this.opt.host}:${this.opt.port}${this.opt.url}`
+        `${this.opt.protocol}://${this.opt.host}${this.opt.url}`
       )
 
       ws.onopen = () => {
