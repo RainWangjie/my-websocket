@@ -1,0 +1,16 @@
+{
+  "name": "websocket-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pako": "link:../node_modules/pako",
+    "parcel-bundler": "^1.12.4",
+    "ws": "^7.2.0",
+    "MyWebsocket": "link:.."
+  },
+  "scripts": {
+    "server": "node server.js",
+    "client": "parcel index.html"
+  }
+}
