@@ -8,9 +8,6 @@
 - 二进制流消息自动`gzip`解压
 - 单消息可绑定多个处理函数
 
-依赖引用方式：
-`yarn add git+http://my-websocket:drxgxutdRXXw6xT4XsGw@git.tianrang-inc.com/TR-FRONT/MyWebsocket.git#master`
-
 ## ws 消息格式
 
 ```js
@@ -27,12 +24,6 @@
   data: any // 消息数据
 }
 ```
-
-## 使用项目
-
-- 「智能匝道控制系统」
-- 「交通运营系统」
-- 「2050 项目-Game」
 
 ## 如何使用
 
